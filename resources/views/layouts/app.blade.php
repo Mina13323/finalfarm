@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-<>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -122,7 +122,7 @@
         /* #region Registeration */
 
         .background {
-            background-image: url("public\im\background.png");
+            background-image: url("im/background.png");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -492,7 +492,7 @@
 
     <body>
         <div id="app">
-            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <header >
                 <div class="container">
                     <a class="navbar-brand" href="{{ url('/') }}">
                         {{ config('app.name', 'Laravel') }}
@@ -546,7 +546,7 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </header>
 
             <main class="py-4">
                 @yield('content')

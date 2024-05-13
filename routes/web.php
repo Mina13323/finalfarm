@@ -33,13 +33,15 @@ Route::get('/supplier', function () {
     return view('supplier');
 })->middleware('auth')->name('supplier.dashboard');
 
-Route::get('/vet', function () {
-    return view('vet');
-})->middleware('auth')->name('vet.dashboard');
+Route::get('/veterinarian.', function () {
+    return view('veterinarian.');
+})->middleware('auth')->name('veterinarian..dashboard');
 
 Route::get('/admin', function () {
     return view('admin');
 })->middleware('auth')->name('admin.dashboard');
+
+Route::post('/buy', 'App\Http\Controllers\TransactionController@buy');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

@@ -7,6 +7,7 @@
 
 <head>
     <title>إدارة المزرعة</title>
+    <link rel="stylesheet" href="public\Styles\styles.css" />
 </head>
 
 <body>

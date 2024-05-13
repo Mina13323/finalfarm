@@ -7,7 +7,6 @@
 <html lang="ar">
 
 <head>
-    
     <title>البيطري</title>
 </head>
 
@@ -18,7 +17,7 @@
         <div class="cases-wrapper">
             <!-- Case 1 -->
             <div class="case">
-                <img src="/public/assets/images/images5.jpeg" alt="Product Image" />
+                <img src="im/images5.jpeg" alt="Product Image" />
                 <h2>مرض الميكوبلازما</h2>
                 <p>
                     (بالإنجليزية: Mycoplasmosis) أو التهاب الأكياس الهوائية، وهو مرض
@@ -35,7 +34,7 @@
 
             <!-- Case 2 -->
             <div class="case">
-                <img src="/public/assets/images/images6.jpeg" alt="Product Image" />
+                <img src="im/images6.jpeg" alt="Product Image" />
                 <h2>كوليرا الدجاج</h2>
                 <p>
                     (بالإنجليزية: Fowl Cholera) مرض تُسببه بكتيريا الباستورِيلة
@@ -53,7 +52,7 @@
 
             <!-- Case 3 -->
             <div class="case">
-                <img src="/public/assets/images/images7.jpeg" alt="Product Image" />
+                <img src="im/images7.jpeg" alt="Product Image" />
                 <h2>التهاب الامعاء التنكرزي</h2>
                 <p>
                     (بالإنجليزية: Necrotic Enteritis) هو مرض ينتج عن تلف بطانة الأمعاء
@@ -70,7 +69,7 @@
 
             <!-- Case 4 -->
             <div class="case">
-                <img src="/public/assets/images/images8.jpeg" alt="Product Image" />
+                <img src="im/images8.jpeg" alt="Product Image" />
                 <h2>الاسهال الابيض</h2>
                 <p>
                     (بالإنجليزية: Pullorum Disease) هو مرض تُسببه بكتيريا سالمونيلا

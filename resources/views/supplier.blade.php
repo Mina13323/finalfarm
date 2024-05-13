@@ -17,7 +17,7 @@
         <div class="supplies-wrapper">
             <!-- Supply 1 -->
             <div class="supply">
-                <img src="im/images1" alt="Product Image" />
+                <img src="im/images1.jpeg" alt="Product Image" />
                 <h2>كتاكيت</h2>
                 <p>
                     تتغذى الكتاكيت على طعام خاص يحتوي على تركيبة متوازنة من البروتينات
@@ -31,7 +31,7 @@
 
             <!-- Supply 2 -->
             <div class="supply">
-                <img src="im/images2" alt="Product Image" />
+                <img src="im/images2.jpeg" alt="Product Image" />
                 <h2>نشاره خشب</h2>
                 <p>نشاره خشب ناعمه تصلح لتربيه الدجاج</p>
                 <p>السعر: 100 جنيه</p>
@@ -42,7 +42,7 @@
 
             <!-- Supply 3 -->
             <div class="supply">
-                <img src="im/images3" alt="Product Image" />
+                <img src="im/images3.jpeg" alt="Product Image" />
                 <h2>علف</h2>
                 <p>
                     طاقه ممثلة لا تقل عن 31% بروتين خام%21 دهن خام%6.73 ألياف خام% 3.30.
@@ -56,7 +56,7 @@
 
             <!-- Supply 4 -->
             <div class="supply">
-                <img src="im/images4" alt="Product Image" />
+                <img src="im/images4 .jpeg" alt="Product Image" />
                 <h2>فراخ بيضه</h2>
                 <p>فراخ بيضه وزن 1000 جرام</p>
                 <p>السعر: 200 جنيه</p>

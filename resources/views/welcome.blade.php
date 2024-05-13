@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+<head>
+<link rel="stylesheet" type="text/css" href="{{ asset('public\Styles\styles.css') }}" >
+</head>
 <body class="background">
     <header>
         <img src="im/Logo.png" alt="شعار مزرعة الدواجن في مصر" />
