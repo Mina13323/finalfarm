@@ -12,7 +12,7 @@
         content="مزرعة الدواجن في مصر - وجهتك الواحدة للحصول على منتجات دجاج طازجة وصحية. ابحث عن الدجاج الطازج واحصل على نصائح خبراء حول رعاية الدواجن وتوفير منتجات دجاج عالية الجودة." />
     <meta name="keywords" content="دجاج, مزرعة, مصر, طازج, صحي, منتجات, بيطري, مورد" />
     <meta name="author" content="Happy Farm - المزرعة السيعيدة" />
-    
+
 
 
     <style>
@@ -122,7 +122,7 @@
         /* #region Registeration */
 
         .background {
-            background-image: url("/assets/images/background.png");
+            background-image: url("public\im\background.png");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

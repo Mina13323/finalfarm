@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->string('address');
             $table->string('phone');
-            $table->integer('role');
+            $table->string('role'); // Change the 'role' column to accept string values
             $table->rememberToken();
             $table->timestamps();
         });

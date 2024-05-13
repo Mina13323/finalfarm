@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Http\Request;
 
 class RegisterController extends Controller
 {
@@ -21,6 +22,7 @@ class RegisterController extends Controller
     |
     */
 
+
     use RegistersUsers;
 
     /**
@@ -28,6 +30,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
+
     protected $redirectTo = '/home';
 
     /**
@@ -35,6 +38,7 @@ class RegisterController extends Controller
      *
      * @return void
      */
+
     public function __construct()
     {
         $this->middleware('guest');
@@ -46,6 +50,7 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
+
     protected function validator(array $data)
     {
         return Validator::make($data, [
@@ -63,12 +68,34 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \App\Models\User
      */
+
     protected function create(array $data)
     {
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'phone' => $data['phone'],
+            'role' => $data['role'],
         ]);
+    }
+
+    protected function registered(Request $request, $user)
+    {
+        $role = $user->role;
+
+        switch ($role) {
+            case 'customer':
+                return redirect()->route('customer.dashboard');
+                break;
+            case 'supplier':
+                return redirect()->route('supplier.dashboard');
+                break;
+            case 'vet':
+                return redirect()->route('vet.dashboard');
+                break;
+            default:
+                return redirect()->route('home');
+        }
     }
 }
