@@ -90,7 +90,7 @@
                                     <input class="form-check-input" type="radio" name="role" id="role_customer"
                                         value="customer" {{ old('role') == 'customer' ? 'checked' : '' }}>
                                     <label class="form-check-label" for="role_customer">
-                                        عميل
+                                        مشترى
                                     </label>
                                 </div>
                                 <div class="form-check">
