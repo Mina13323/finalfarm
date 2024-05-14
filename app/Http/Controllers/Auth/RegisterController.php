@@ -92,10 +92,15 @@ class RegisterController extends Controller
                 return redirect()->route('supplier.dashboard');
                 break;
             case 'vet':
-                return redirect()->route('vet.dashboard');
+                return redirect()->route('veterinarian.dashboard');
+                break;
+            case 'admin':
+                return redirect()->route('admin.dashboard');
                 break;
             default:
                 return redirect()->route('home');
         }
+
+        return redirect()->route('customer.products');
     }
 }

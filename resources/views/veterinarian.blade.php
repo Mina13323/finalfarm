@@ -17,7 +17,7 @@
         <div class="cases-wrapper">
             <!-- Case 1 -->
             <div class="case">
-                <img src="im/images5.jpeg" alt="Product Image" />
+                <img src="im/images 5.jpeg" alt="Product Image" />
                 <h2>مرض الميكوبلازما</h2>
                 <p>
                     (بالإنجليزية: Mycoplasmosis) أو التهاب الأكياس الهوائية، وهو مرض
